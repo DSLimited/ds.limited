@@ -44,10 +44,11 @@ jobs:
       - run:
           name: run Build
           command: |
+            cd ~/repo
             jeykll build
 
       # Run Deployment!
-      - run:
+      - deploy:
           name: run Deployment
           command: |
             aws s3 sync ./_site/ s3://ds.limited/ --delete
