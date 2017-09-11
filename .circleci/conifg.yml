@@ -42,7 +42,7 @@ jobs:
 
       # Run Deployment!
       - run:
-          name: run Build
+          name: Running tests
           command: |
             cd ~/repo
             jeykll build
