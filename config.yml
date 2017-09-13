@@ -26,7 +26,7 @@ checkout:
         timeout: 180 # fail if command has no output for 3 minutes
         # IMPORTANT NOTE: ^^ the timeout modifier above must be
         # double indented (four spaces) from the previous line
-  
+
   # we automatically cache and restore many dependencies between
   # builds. If you need to, you can add custom paths to cache:
   cache_directories:
@@ -41,10 +41,10 @@ compile:
 test:
   post:
     echo "All good"
-    
+
 ## Customize deployment commands
 deployment:
   production:
     branch: master
     commands:
-      - aws s3 sync ./_site/ s3://ds.limited/ --delete
+      - aws s3 sync ./_site/ s3://ds.limited/ --delete --region eu-west-1
