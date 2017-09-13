@@ -19,21 +19,13 @@ machine:
 checkout:
   post:
     - git submodule sync
-    #- git submodule update --init # use submodules
-
-## Customize dependencies
-#dependencies:
-  #pre:
-    #- npm install coffeescript # install from a different package manager
-    #- gem uninstall bundler # use a custom version of bundler
-    #- gem install bundler --pre
+    #- git submodule update --init # use submodule
 
   override:
     - bundle install: # note ':' here
         timeout: 180 # fail if command has no output for 3 minutes
         # IMPORTANT NOTE: ^^ the timeout modifier above must be
         # double indented (four spaces) from the previous line
-    - jeykll build:
   
   # we automatically cache and restore many dependencies between
   # builds. If you need to, you can add custom paths to cache:
@@ -41,33 +33,18 @@ checkout:
     - "custom_1"   # relative to the build directory
     - "~/custom_2" # relative to the user's home directory
 
-## Customize database setup
-#database:
-  #override:
-    # replace CircleCI's generated database.yml
-    #- cp config/database.yml.ci config/database.yml
-    #- bundle exec rake db:create db:schema:load
+compile:
+  override:
+    - jeykll build
 
 ## Customize test commands
 test:
-  #override:
-    #- phpunit test/unit-tests # use PHPunit for testing
   post:
     echo "All good"
-    #- bundle exec rake jasmine:ci: # add an extra test type
-    #    environment:
-    #      RAILS_ENV: test
-    #      RACK_ENV: test
-
+    
 ## Customize deployment commands
 deployment:
   production:
     branch: master
     commands:
-      - ./aws s3 sync ./_site/ s3://ds.limited/ --delete
-
-## Custom notifications
-#notify:
-  #webhooks:
-    # A list of hashes representing hooks. Only the url field is supported.
-    #- url: https://someurl.com/hooks/circle
+      - aws s3 sync ./_site/ s3://ds.limited/ --delete
