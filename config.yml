@@ -44,7 +44,7 @@ test:
 
 ## Customize deployment commands
 deployment:
-  production:
+  prod:
     branch: master
     commands:
-      - aws s3 sync ./_site/ s3://ds.limited/ --delete --region eu-west-1
+      - aws s3 sync ./_site/ s3://ds.limited/ --delete
