@@ -9,7 +9,7 @@ checkout:
   post:
     - git submodule sync
   override:
-    - bundle install: # note ':' here.       
+    - bundle install: # note ':' here.
         timeout: 180
 compile:
   override:
