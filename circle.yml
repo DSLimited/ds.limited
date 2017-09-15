@@ -1,22 +1,15 @@
-## Customize the test machine
 machine:
-  timezone:
-    Europe/Dublin
   ruby:
     version:
       2.4.0
-checkout:
-  post:
-    - git submodule sync
+test:
   override:
     - bundle install: # note ':' here.
         timeout: 180
-compile:
-  override:
     - jeykll build
-test:
   post:
-    echo "All good"
+    - git submodule sync
+
 deployment:
   prod:
     branch: master
