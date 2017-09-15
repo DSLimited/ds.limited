@@ -11,6 +11,6 @@ test:
 
 deployment:
   prod:
-    branch: tweaks
+    branch: master
     commands:
       - "aws s3 sync ./_site/ s3://ds.limited/ --delete"
