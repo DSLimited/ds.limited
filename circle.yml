@@ -7,10 +7,10 @@ test:
     - bundle install: # note ':' here.
         timeout: 180
   override:
-    - bundle exec jeykll build
+    - bundle exec jekyll build
 
 deployment:
   prod:
-    branch: master
+    branch: tweaks
     commands:
       - "aws s3 sync ./_site/ s3://ds.limited/ --delete"
