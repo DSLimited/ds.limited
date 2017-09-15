@@ -4,13 +4,11 @@ machine:
       2.4.0
 test:
   pre:
-    - gem install jekyll bundler
-  override:
+    - gem install bundler
     - bundle install: # note ':' here.
         timeout: 180
-    - jeykll build
-  post:
-    - git submodule sync
+  override:
+    - bundle exec jeykll build
 
 deployment:
   prod:
