@@ -4,7 +4,6 @@ machine:
       2.4.0
 test:
   pre:
-    - gem install bundler
     - bundle install: # note ':' here.
         timeout: 180
   override:
