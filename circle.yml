@@ -3,6 +3,8 @@ machine:
     version:
       2.4.0
 test:
+  pre:
+    - gem install jekyll bundler
   override:
     - bundle install: # note ':' here.
         timeout: 180
