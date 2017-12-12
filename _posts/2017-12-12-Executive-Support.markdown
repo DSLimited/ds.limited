@@ -14,7 +14,7 @@ categories: Blog
 |Need help with new concepts?				|Negotiating an acquisition?		|
 |Software on your PC you can't get rid of?  |Selling your interest?				|
 |Lost where you put some data?				|Fear you may be infected?			|
-|Want to talk about social media?			|Want help with 'content' creaton?	|
+|Improve your social media presence?		|Want help with 'content' creation?	|
 |											|									|
 |Call: 0780 233 6789						|Call: 01905 798 209				|
 

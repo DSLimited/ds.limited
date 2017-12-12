@@ -3,15 +3,21 @@ layout: page
 title: About
 permalink: /about/
 ---
-![moving cloud gif](https://media.giphy.com/media/4b8Oi4TXZDStG/giphy.gif)
+# Meet the Team
 
-I have been working in the IT industry for over 15 years and I am contantly learning and surprised by the technology industry.  I started out working in Infrastructure, hard wiring servers and spending hours in data centres running analytical programs to increase the performance of the hardware at my disposal.
+We are a small team here at Deneb Solutions Limited who are commited to great customer service and lasting relationships.
 
-Now I work as a consultant Senior Cloud Engineer doing lots of interesting things that my wife and, sometimes, even I don't understand...
+|Samuel 			|Emily				|David				|
+|:-----------------:|:-----------------:|:-----------------:|
+|![Picture of Samuel](/sam.jpg "Samuel")|![Picture of Emily](/Emily.jpg "Emily")|![Picture of David](/David.jpg "David")|
+|Senior Cloud Consultant|Junior Web Developer|Executive Management Consultant|
+|{% include icon-linkedin.html%} [Sam's Profile](https://www.linkedin.com/in/samuelcprowe/) | {% include icon-linkedin.html%} [Emily's Profile](https://www.linkedin.com/in/emily-rowe-b1aa79150/) | {% include icon-linkedin.html%} [David's Profile](https://www.linkedin.com/in/david-rowe-8559501/) |
+|{%include icon-google.html%} [Google](https://plus.google.com/u/0/109881631629325169004) |{%include icon-google.html%} [Google](https://plus.google.com/u/0/103218008912435453054)|{%include icon-google.html%} [Google](https://plus.google.com/u/0/116821808766883303229)|
+
 
 <!--[jekyllrb.com](http://jekyllrb.com/)  How to add in a website within MD pages-->
 
-You can view my public folders in Git Hub at:
+<!-- You can view my public folders in Git Hub at:
 {% include icon-github.html username="Sam-Rowe" %} /
 [Sam-Rowe](https://github.com/Sam-Rowe)
 
@@ -22,4 +28,4 @@ You can find the source code for Jekyll at
 You can contact Sam via his LinkedIn page: 
 {% include icon-linkedin.html username="samuelcprowe" %} 
 
-
+ -->

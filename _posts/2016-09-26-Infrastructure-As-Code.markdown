@@ -4,7 +4,7 @@ title:  "Infrastructure as Code"
 date:   2016-09-26 22:34:14 -0400
 categories: Blog DevOps
 ---
-![moving cloud image](https://aos.iacpublishinglabs.com/question/aq/1400px-788px/clouds-that-look-like-cotton-balls_62557eb9-9d3c-43d8-9e88-8b5662829adf.jpg?domain=cx.aos.ask.com)
+
 
 # What?
 
