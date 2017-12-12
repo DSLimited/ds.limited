@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ![moving cloud gif](https://media.giphy.com/media/4b8Oi4TXZDStG/giphy.gif)
 
-I have been working int he IT industry for over 15 years and I am contantly learning and surprised by the technology industry.  I started out working in Infrastructure, hard wiring servers and spending hours in data centres running analytical programs to increase the performance of the hardware at my disposal.
+I have been working in the IT industry for over 15 years and I am contantly learning and surprised by the technology industry.  I started out working in Infrastructure, hard wiring servers and spending hours in data centres running analytical programs to increase the performance of the hardware at my disposal.
 
 Now I work as a consultant Senior Cloud Engineer doing lots of interesting things that my wife and, sometimes, even I don't understand...
 
