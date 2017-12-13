@@ -208,7 +208,7 @@ img {
     margin-left: 0;
     list-style: none;
     max-width: 200px;
-    position: fixed;
+    position: absolute;
 
     > li {
         margin-bottom: $spacing-unit;
