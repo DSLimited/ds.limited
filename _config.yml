@@ -10,7 +10,7 @@ title: Deneb Solutions Limited
 img: ./Deneb_sml_logo.jpg
 
 description: > # this means to ignore newlines until "baseurl:"
-  Deneb Solutions Limited is registered in England and Wales, Company number #10138289. We are specalists in supporting you and your business grow.
+  Deneb Solutions Limited is registered in England and Wales, Company number #10138289. We are specailists in supporting you and your business grow.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ds.limited" # the base hostname & protocol for your site
 google_username: sam.rowe@deneb.co.uk

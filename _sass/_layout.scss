@@ -28,7 +28,7 @@
 
 /*positioning and styling for the logo*/
 .logo {
-    @include company-logo('deneb_sml_logo');
+    @include company-logo('/images/deneb_sml_logo');
     /*horizontal-alignment: right;*/
     float: right;
     display: inline;
@@ -39,10 +39,7 @@
 
 }
 
-img {
-    max-width: 150px;
-    border-radius: 50%;
-}
+
 
 .site-nav {
     float: left;
@@ -52,8 +49,8 @@ img {
 
     .menu-icon {
         display: none;
-    }
-
+    
+}
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
@@ -245,8 +242,15 @@ table {
 }
 
 td {
-    padding-right: $spacing-unit;
+    padding-right: 50px;
+
+    img {
+    max-width: 150px;
+    border-radius: 50%;
+    }
 }
+
+
 
 /**
  * Posts

@@ -19,7 +19,7 @@ Whether you want to go all in and build your own miner, or just want to dip your
 Deneb Solutions has been there from the beginning. We started mining bitcoin in 2009, Litecoin in 2011 and we can help you get into the mining business. 
 
 # Converting Crypto Currencies
-Conversion of crypto currencies can be confusing at first but with Deneb Solutions help we can guide you to the right exchanges and help you setup the best security practices so you can work with them securely.
+Conversion of crypto currencies can be confusing at first but, with Deneb Solutions help, we can guide you to the right exchanges and help you setup the best security practices so you can work with them securely.
 
 # Secure Storage
 Crypto currencies have become very valuable. If your thinking of investing or mining it is vital keep your wallet safe. Give Deneb Solutions a call and we can help you choose the right methods for securely storing it.

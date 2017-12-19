@@ -9,7 +9,7 @@ We are a small team here at Deneb Solutions Limited who are commited to great cu
 
 |Samuel 			|Emily				|David				|
 |:-----------------:|:-----------------:|:-----------------:|
-|![Picture of Samuel](/sam.jpg "Samuel")|![Picture of Emily](/Emily.jpg "Emily")|![Picture of David](/David.jpg "David")|
+|![Picture of Samuel](/images/sam.jpg "Samuel")|![Picture of Emily](/images/emily.jpg "Emily")|![Picture of David](/images/david.jpg "David")|
 |Senior Cloud Consultant|Junior Web Developer|Executive Management Consultant|
 |{% include icon-linkedin.html%} [Sam's Profile](https://www.linkedin.com/in/samuelcprowe/) | {% include icon-linkedin.html%} [Emily's Profile](https://www.linkedin.com/in/emily-rowe-b1aa79150/) | {% include icon-linkedin.html%} [David's Profile](https://www.linkedin.com/in/david-rowe-8559501/) |
 |{%include icon-google.html%} [Google](https://plus.google.com/u/0/109881631629325169004) |{%include icon-google.html%} [Google](https://plus.google.com/u/0/103218008912435453054)|{%include icon-google.html%} [Google](https://plus.google.com/u/0/116821808766883303229)|
