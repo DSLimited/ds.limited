@@ -2,7 +2,7 @@
 layout: post
 title:  "Cloud services"
 date:   2017-12-14 22:34:14 -0400
-categories: Blog Cloud Services 
+categories: Blog Cloud Services
 ---
 
 # Cloud Services
@@ -15,7 +15,7 @@ Starting a new application, now is the most exciting time for writing applicatio
 If your using Fleet, Swarm, Kubernetes or Mesos your probably already using Cloud services to provide the underlying compute power, Deneb Solutions Limited can help by providing ad hock support services when your short staffed or during high project workloads.
 
 # Legacy systems
-Cloud services can still be utilised to enhance legacy systems that are lifted and shifted into the cloud. Why build your own file server for shared files between servers when Elastic File System can be leveraged and scaled to your requirements? Backups can be easily achieved at a very reasonable price per GB using the Cloud Services S3 and Glacier. Don't want the headache of managing your own DB server then leverage Relational Data Services and let Amazon do the heavy lifting for you. Let Deneb Solutions architect and bring these benefits to life for your business.
+Cloud services can still be utilised to enhance legacy systems that are lifted and shifted into the cloud. 
 
 # OS
 One question we are often asked is how about licencing? Utilising Cloud Services can be done with your current licences for some services (Bring your own licence - BYOL) but the majority of Cloud Services include the cost of licencing in the service charge. This has a major benefit allowing you to only pay for the licence and compute cost you use by the hour (in some services this can be down to the second usage cost).
